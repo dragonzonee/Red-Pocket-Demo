@@ -1,8 +1,32 @@
-/*.one{
-	fill: #cb374e;
+html,body{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to left, #212333, #432132);
 }
 
-.two{
-	fill: #fbd49d;
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
-*/
+
+svg{
+	margin: auto;
+	border:solid 1px black;
+}
+
+input{
+	border:solid 1px black;
+	width: 50%;
+	height: 30px;
+}
+
+.warpper{
+	width: 100%;
+	height: 100%;
+	border:solid 1px black;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-around;
+}
