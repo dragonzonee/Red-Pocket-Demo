@@ -17,7 +17,7 @@ svg{
 
 input{
 	border:solid 1px white;
-	width: 100%;
+	width: 50%;
 	height: 30px;
 	margin-top: .5em;
 }
@@ -38,10 +38,14 @@ input{
 	flex-flow: column;
 	align-items: center;
 	color: white;
-	margin-top: 3em;
+	margin-top: 1em;
 }
 
 .bottom-info{
-	margin-bottom: 3em;
-	color:  #cb374e
+	margin-bottom: 1em;
+	color: #cb374e;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-flow: column;
 }
