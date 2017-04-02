@@ -57,7 +57,7 @@ input{
 .bottom-info{
 	margin-bottom: 1em;
 	margin-top: 1em;
-	color: #cb374e;
+	color: white;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -66,4 +66,9 @@ input{
 
 h2{
 	line-height: 1.8em
+}
+
+a{
+	text-decoration: none;
+	color: blue;
 }
