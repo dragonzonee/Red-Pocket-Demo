@@ -1,8 +1,15 @@
 var path = document.getElementsByTagName("path");
 var length = path.length;
-for(var i=0;i<length;i++){
-  path[i].style.opacity= 0;
+
+
+function onloadjs(){
+  for(var i=0;i<length;i++){
+    path[i].style.opacity= 0;
+  }
+  var svg = document.getElementsByTagName("svg")[0];
+  svg.style.opacity=1;
 }
+
 
 var num = 31;//字符总个数b
 var volume = Math.floor(length/num);

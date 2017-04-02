@@ -2,6 +2,14 @@ html,body{
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(to left, #212333, #432132);
+	/* Webkit: Safari 5.1+, Chrome 10+ */ 
+	background: -webkit-linear-gradient(right, #212333, #432132); 
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(right, #212333, #432132); 
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(right, #212333, #432132); 
+	/* IE 10 */ 
+	background: -ms-linear-gradient(right, #212333, #432132); 
 }
 
 *{
@@ -12,15 +20,20 @@ html,body{
 
 svg{
 	margin: auto;
+	min-width: 170px;
+	min-height: 170px;
+	background: white;
 	border:solid 2px #cb374e;
+
 }
 
 input{
 	border:solid 1px white;
 	width: 50%;
 	height: 30px;
-	margin-top: .5em;
+	margin-bottom: .5em;
 }
+
 
 .warpper{
 	width: 100%;
@@ -38,14 +51,19 @@ input{
 	flex-flow: column;
 	align-items: center;
 	color: white;
-	margin-top: 1em;
+	margin-top: 3em;
 }
 
 .bottom-info{
 	margin-bottom: 1em;
+	margin-top: 1em;
 	color: #cb374e;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	flex-flow: column;
+}
+
+h2{
+	line-height: 1.8em
 }
